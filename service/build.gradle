@@ -1,0 +1,18 @@
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation "org.mapstruct:mapstruct:1.5.0.Final"
+    implementation 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor "org.mapstruct:mapstruct-processor:1.5.0.Final"
+    api project(":dao")
+}
+
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}
