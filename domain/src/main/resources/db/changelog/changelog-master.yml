@@ -5,4 +5,12 @@ databaseChangeLog:
       file: db/changelog/changelog-v2.sql
   - include:
       file: db/changelog/changelog-v3.sql
+  - include:
+      file: db/changelog/changelog-v4-adding-2more-article.sql
+  - include:
+      file: db/changelog/changelog-v5-drop-all-tables.sql
+  - include:
+      file: db/changelog/changelog-v6-create-all-tables-with-relations.sql
+  - include:
+      file: db/changelog/changelog-v7-inserting-data.sql
 

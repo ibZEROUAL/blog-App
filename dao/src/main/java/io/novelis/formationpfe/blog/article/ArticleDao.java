@@ -4,7 +4,6 @@ import com.querydsl.jpa.impl.JPAQuery;
 import io.novelis.formationpfe.blog.entities.Article;
 import io.novelis.formationpfe.blog.AbstractDao;
 import io.novelis.formationpfe.blog.entities.QArticle;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -15,8 +14,7 @@ import java.util.Objects;
 
 @Repository
 public class ArticleDao extends AbstractDao<Article,ArticleRepository> {
-    @Autowired
-    private ArticleRepository articleRepository;
+    private final ArticleRepository articleRepository;
 
     public ArticleDao(ArticleRepository articleRepository) {
         this.articleRepository = articleRepository;
@@ -28,8 +26,8 @@ public class ArticleDao extends AbstractDao<Article,ArticleRepository> {
     }
 
     @Override
-    public Page<Article> createEntityPage(int pageNo, int size) {
-        Pageable pageable = PageRequest.of(pageNo - 1 , size);
+    public Page<Article> createEntityPage(int pageNo, int pageSize, String sortField, String sortDirection) {
+        Pageable pageable = PageRequest.of(pageNo - 1 , pageSize);
         return this.articleRepository.findAll(pageable);
     }
 

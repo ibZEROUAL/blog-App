@@ -20,7 +20,7 @@ public class CommentDao extends AbstractDao<Comment,CommentRepository> {
     }
 
     @Override
-    public Page<Comment> createEntityPage(int pageNo, int size) {
+    public Page<Comment> createEntityPage(int pageNo, int pageSize, String sortField, String sortDirection) {
         return null;
     }
 

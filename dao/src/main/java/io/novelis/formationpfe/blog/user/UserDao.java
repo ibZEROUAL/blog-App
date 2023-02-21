@@ -15,7 +15,7 @@ public class UserDao extends AbstractDao<User, UserRepository> {
     }
 
     @Override
-    public Page<User> createEntityPage(int pageNo, int size) {
+    public Page<User> createEntityPage(int pageNo, int pageSize, String sortField, String sortDirection) {
         return null;
     }
 

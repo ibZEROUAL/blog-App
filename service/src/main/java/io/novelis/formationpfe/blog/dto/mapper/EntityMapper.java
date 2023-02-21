@@ -2,8 +2,8 @@ package io.novelis.formationpfe.blog.dto.mapper;
 
 
 
+import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -42,7 +42,7 @@ public interface EntityMapper<D,E> {
          * @param entityList the list of entities to map
          * @return the corresponding list of DTOs
          */
-        List <D> toDtoList(List<E> entityList);
+        List<D> toDtoList(List<E> entityList);
 
 
         /**

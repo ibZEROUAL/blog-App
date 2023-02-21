@@ -23,7 +23,7 @@ public class User extends AbstractEntity {
     @Column(name = "age")
     private int Age;
 
-    @OneToMany(mappedBy = "user" , cascade = CascadeType.ALL)
+   @OneToMany(mappedBy = "user" , cascade = CascadeType.ALL)
     private List<Article> articles;
 
     @OneToMany(mappedBy = "user" , cascade = CascadeType.ALL)

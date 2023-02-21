@@ -15,12 +15,13 @@ import java.util.List;
 @Builder
 public class ArticleDto {
     @NotNull
-    private Long articleId;
+    private Long id;
     @NotNull
     private String title;
     @NotNull
     @Size(max = 250)
     private String description;
+
     @NotNull
     private User user;
 

@@ -2,6 +2,7 @@ package io.novelis.formationpfe.blog.dto.mapper;
 
 import io.novelis.formationpfe.blog.dto.ArticleDto;
 import io.novelis.formationpfe.blog.entities.Article;
+import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 

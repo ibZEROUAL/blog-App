@@ -18,7 +18,7 @@ public abstract class AbstractDao<T extends AbstractEntity, Q extends JpaReposit
     private EntityManager entityManager;
 
     public abstract Q getJpaRepository();
-    public abstract Page<T> createEntityPage(int pageNo , int size);
+    public abstract Page<T> createEntityPage(int pageNo, int pageSize, String sortField, String sortDirection);
 
     public T save(T entity) {
         return getJpaRepository().save(entity);
