@@ -20,8 +20,10 @@ public class ArticleController {
     @GetMapping("/articles")
     @ResponseStatus(HttpStatus.ACCEPTED)
     public List<ArticleDto> getAllArticles () {
-        return this.articleService.getArticles();
+        return this.articleService.getPaginatedArticles();
     }
+
+
 
 
 

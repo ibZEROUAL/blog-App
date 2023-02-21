@@ -24,9 +24,17 @@ public class ArticleService {
         return null;
     }
 
-    public List<ArticleDto> getArticles(){
+    public ArticleDto addArticle(ArticleDto articleDto) throws Exception {
+        var result = articleDao.save(articleMapper.toEntity(articleDto));
+        if (result == null) {
+            throw new Exception("Something went wrong ! ");
+        }
+        return articleMapper.toDto(result);
+    }
 
+    public List<ArticleDto> getPaginatedArticles(){
 
+        //this.articleDao.createEntityPage()
 
         var articles = articleDao.findAll();
         if (articles.size() != 0) {
@@ -35,13 +43,15 @@ public class ArticleService {
         return null;
     }
 
-    public ArticleDto addArticle(ArticleDto articleDto) throws Exception {
-        var result = articleDao.save(articleMapper.toEntity(articleDto));
-        if (result == null) {
-            throw new Exception("Something went wrong ! ");
-        }
-        return articleMapper.toDto(result);
-    }
+
+
+
+
+
+
+
+
+
 
 /*    public void test(){
         User user = new User();
