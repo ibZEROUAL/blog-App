@@ -5,6 +5,9 @@ import io.novelis.formationpfe.blog.entities.Article;
 import io.novelis.formationpfe.blog.AbstractDao;
 import io.novelis.formationpfe.blog.entities.QArticle;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -22,6 +25,12 @@ public class ArticleDao extends AbstractDao<Article,ArticleRepository> {
     @Override
     public ArticleRepository getJpaRepository() {
         return this.articleRepository;
+    }
+
+    @Override
+    public Page<Article> createEntityPage(int pageNo, int size) {
+        Pageable pageable = PageRequest.of(pageNo - 1 , size);
+        return this.articleRepository.findAll(pageable);
     }
 
     public List<Article> getUserArticles(Long userId){

@@ -1,7 +1,9 @@
 package io.novelis.formationpfe.blog;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
+import io.novelis.formationpfe.blog.entities.Article;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.data.domain.Page;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -16,6 +18,7 @@ public abstract class AbstractDao<T extends AbstractEntity, Q extends JpaReposit
     private EntityManager entityManager;
 
     public abstract Q getJpaRepository();
+    public abstract Page<T> createEntityPage(int pageNo , int size);
 
     public T save(T entity) {
         return getJpaRepository().save(entity);

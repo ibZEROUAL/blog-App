@@ -4,6 +4,7 @@ import com.querydsl.jpa.impl.JPAQuery;
 import io.novelis.formationpfe.blog.entities.Comment;
 import io.novelis.formationpfe.blog.AbstractDao;
 import io.novelis.formationpfe.blog.entities.QComment;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Repository;
 
 import java.time.LocalDate;
@@ -16,6 +17,11 @@ public class CommentDao extends AbstractDao<Comment,CommentRepository> {
     @Override
     public CommentRepository getJpaRepository() {
         return commentRepository;
+    }
+
+    @Override
+    public Page<Comment> createEntityPage(int pageNo, int size) {
+        return null;
     }
 
 

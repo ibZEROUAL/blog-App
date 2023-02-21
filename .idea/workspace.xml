@@ -4,7 +4,130 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b3b3699-5e59-4fd3-8519-2a73d6d79f83" name="Changes" comment="" />
+    <list default="true" id="4b3b3699-5e59-4fd3-8519-2a73d6d79f83" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7978528c-dc1e-4e94-9b0a-4cc00b263991/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7978528c-dc1e-4e94-9b0a-4cc00b263991/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7978528c-dc1e-4e94-9b0a-4cc00b263991/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2023-02-17T163840.200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/J2EE_1_4_J2EE_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/boot/blog.boot.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/boot/io.novelis.formation-pfe.blog.blog.boot.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/dao/blog.dao.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/dao/io.novelis.formation-pfe.blog.blog.dao.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/domain/blog.domain.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/domain/io.novelis.formation-pfe.blog.blog.domain.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/service/blog.service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/service/io.novelis.formation-pfe.blog.blog.service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/build/classes/java/main/io/novelis/formationpfe/blog/ArticleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/build/classes/java/main/io/novelis/formationpfe/blog/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/io/novelis/formationpfe/blog/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/build/classes/java/main/io/novelis/formationpfe/blog/bootstrapData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/build/resources/main/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/build/classes/java/main/io/novelis/formationpfe/blog/AbstractDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/build/classes/java/main/io/novelis/formationpfe/blog/DaoConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/build/classes/java/main/io/novelis/formationpfe/blog/article/ArticleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/build/classes/java/main/io/novelis/formationpfe/blog/article/ArticleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/build/classes/java/main/io/novelis/formationpfe/blog/comment/CommentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/build/classes/java/main/io/novelis/formationpfe/blog/comment/CommentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/build/classes/java/main/io/novelis/formationpfe/blog/user/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/build/classes/java/main/io/novelis/formationpfe/blog/user/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/classes/java/main/io/novelis/formationpfe/blog/AbstractEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/classes/java/main/io/novelis/formationpfe/blog/QAbstractEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/classes/java/main/io/novelis/formationpfe/blog/entities/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/classes/java/main/io/novelis/formationpfe/blog/entities/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/classes/java/main/io/novelis/formationpfe/blog/entities/QArticle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/classes/java/main/io/novelis/formationpfe/blog/entities/QComment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/classes/java/main/io/novelis/formationpfe/blog/entities/QUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/classes/java/main/io/novelis/formationpfe/blog/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/generated/sources/annotationProcessor/java/main/io/novelis/formationpfe/blog/entities/QArticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/generated/sources/annotationProcessor/java/main/io/novelis/formationpfe/blog/entities/QComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/generated/sources/annotationProcessor/java/main/io/novelis/formationpfe/blog/entities/QUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/resources/main/db/changelog/baseline-changelog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/resources/main/db/changelog/changelog-master.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/resources/main/db/changelog/changelog-v1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/resources/main/db/changelog/changelog-v2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/build/resources/main/db/changelog/changelog-v3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/resources/db/changelog/baseline-changelog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/resources/db/changelog/changelog-v3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/j2ee.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/classes/java/main/io/novelis/formationpfe/blog/dto/ArticleDto$ArticleDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/classes/java/main/io/novelis/formationpfe/blog/dto/ArticleDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/classes/java/main/io/novelis/formationpfe/blog/dto/ArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/classes/java/main/io/novelis/formationpfe/blog/dto/CommentDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/classes/java/main/io/novelis/formationpfe/blog/dto/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/classes/java/main/io/novelis/formationpfe/blog/dto/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/classes/java/main/io/novelis/formationpfe/blog/dto/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/classes/java/main/io/novelis/formationpfe/blog/dto/mapper/ArticleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/classes/java/main/io/novelis/formationpfe/blog/dto/mapper/ArticleMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/classes/java/main/io/novelis/formationpfe/blog/dto/mapper/CommentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/classes/java/main/io/novelis/formationpfe/blog/dto/mapper/EntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/classes/java/main/io/novelis/formationpfe/blog/dto/mapper/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/build/generated/sources/annotationProcessor/java/main/io/novelis/formationpfe/blog/dto/mapper/ArticleMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6bd176d8-140f-47d4-bdc0-aa2cce767255.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7978528c-dc1e-4e94-9b0a-4cc00b263991.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/libs/api-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/libs/api-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/build/libs/boot-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/boot/build/libs/boot-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/build/libs/boot-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/boot/build/libs/boot-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/boot/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/boot/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/blog-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/blog-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/build/libs/dao-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao/build/libs/dao-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/dao/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/io/novelis/formationpfe/blog/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/io/novelis/formationpfe/blog/AbstractDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/io/novelis/formationpfe/blog/article/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/io/novelis/formationpfe/blog/article/ArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/io/novelis/formationpfe/blog/comment/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/io/novelis/formationpfe/blog/comment/CommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/io/novelis/formationpfe/blog/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/io/novelis/formationpfe/blog/user/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/libs/domain-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/libs/domain-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/resources/db/changelog/changelog-master.yml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/resources/db/changelog/changelog-master.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build/libs/service-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service/build/libs/service-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/io/novelis/formationpfe/blog/dto/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/io/novelis/formationpfe/blog/dto/ArticleService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,10 +193,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2LjYR2ePbFgny7b1N5kP0YePLtD" />
   <component name="ProjectViewState">
@@ -82,14 +213,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Thinkpad/Desktop/dentist-project/Dentist",
+    "last_opened_file_path": "C:/Users/Thinkpad/Desktop/blog/blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,7 +232,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "fc4e3eec85409b8dc218f6689bb3832a",
+    "spring.configuration.checksum": "92e7f235c505514191e1b45bd8db7f4e",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -114,9 +248,14 @@
       <recent name="article" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Thinkpad\Desktop\blog\blog" />
       <recent name="C:\Users\Thinkpad\Desktop\blog\blog\dao\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Thinkpad\Desktop\blog\blog\domain\src\main\resources\db\changelog" />
+      <recent name="C:\Users\Thinkpad\Desktop\blog\blog\domain\src\main\resources\db" />
+      <recent name="C:\Users\Thinkpad\Desktop\blog\blog\domain\src\main\resources" />
+      <recent name="C:\Users\Thinkpad\Desktop\blog\blog\boot\src\main\resources" />
       <recent name="C:\Users\Thinkpad\Desktop\blog\blog\dao\src\main\resources\db\changelog" />
     </key>
   </component>
@@ -127,7 +266,28 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BlogApplication">
+  <component name="RunManager" selected="Gradle.blog [build]">
+    <configuration name="blog [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="blog [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -170,69 +330,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="blog:api [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/api" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="blog:boot [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/boot" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="blog:dao [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/dao" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="blog.boot.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.novelis.formationpfe.blog.BlogApplication" />
@@ -247,13 +344,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.blog: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="blog" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.blog [build]" />
         <item itemvalue="Gradle.blog [clean]" />
-        <item itemvalue="Gradle.blog:dao [build]" />
-        <item itemvalue="Gradle.blog:api [build]" />
-        <item itemvalue="Gradle.blog:boot [build]" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.blog: Compose Deployment" />
+        <item itemvalue="Gradle.blog [buildDependents]" />
       </list>
     </recent_temporary>
   </component>
@@ -271,11 +397,28 @@
       <workItem from="1676470389874" duration="3664000" />
       <workItem from="1676474091835" duration="4508000" />
       <workItem from="1676478624891" duration="25691000" />
-      <workItem from="1676559622573" duration="314000" />
+      <workItem from="1676559622573" duration="26487000" />
+      <workItem from="1676827999271" duration="917000" />
+      <workItem from="1676829804951" duration="9404000" />
+      <workItem from="1676842733305" duration="275000" />
+      <workItem from="1676880364663" duration="583000" />
+      <workItem from="1676880988221" duration="19573000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1676560196729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676560196729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

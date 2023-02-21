@@ -1186,137 +1186,193 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
     <user id="338" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <table id="339" parent="324" name="databasechangelog">
+    <table id="339" parent="324" name="articles">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="340" parent="324" name="databasechangeloglock">
+    <table id="340" parent="324" name="comments">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="341" parent="324" name="users">
+    <table id="341" parent="324" name="databasechangelog">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <column id="342" parent="339" name="ID">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="343" parent="339" name="AUTHOR">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="344" parent="339" name="FILENAME">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <column id="345" parent="339" name="DATEEXECUTED">
-      <DasType>datetime|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-    </column>
-    <column id="346" parent="339" name="ORDEREXECUTED">
-      <DasType>int(11)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>5</Position>
-    </column>
-    <column id="347" parent="339" name="EXECTYPE">
-      <DasType>varchar(10)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>6</Position>
-    </column>
-    <column id="348" parent="339" name="MD5SUM">
-      <DasType>varchar(35)|0s</DasType>
-      <Position>7</Position>
-    </column>
-    <column id="349" parent="339" name="DESCRIPTION">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>8</Position>
-    </column>
-    <column id="350" parent="339" name="COMMENTS">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>9</Position>
-    </column>
-    <column id="351" parent="339" name="TAG">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>10</Position>
-    </column>
-    <column id="352" parent="339" name="LIQUIBASE">
-      <DasType>varchar(20)|0s</DasType>
-      <Position>11</Position>
-    </column>
-    <column id="353" parent="339" name="CONTEXTS">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>12</Position>
-    </column>
-    <column id="354" parent="339" name="LABELS">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>13</Position>
-    </column>
-    <column id="355" parent="339" name="DEPLOYMENT_ID">
-      <DasType>varchar(10)|0s</DasType>
-      <Position>14</Position>
-    </column>
-    <column id="356" parent="340" name="ID">
+    <table id="342" parent="324" name="databasechangeloglock">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="343" parent="324" name="users">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <column id="344" parent="339" name="id">
+      <AutoIncrement>1</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="357" parent="340" name="LOCKED">
-      <DasType>bit(1)|0s</DasType>
+    <column id="345" parent="339" name="title">
+      <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="358" parent="340" name="LOCKGRANTED">
-      <DasType>datetime|0s</DasType>
+    <column id="346" parent="339" name="description">
+      <DasType>text|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="359" parent="340" name="LOCKEDBY">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <index id="360" parent="340" name="PRIMARY">
-      <ColNames>ID</ColNames>
+    <index id="347" parent="339" name="PRIMARY">
+      <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="361" parent="340" name="PRIMARY">
+    <key id="348" parent="339" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="362" parent="341" name="id">
+    <column id="349" parent="340" name="id">
+      <AutoIncrement>1</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="363" parent="341" name="username">
+    <column id="350" parent="340" name="content">
+      <DasType>text|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="351" parent="340" name="publishing_date">
+      <DasType>date|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="352" parent="340" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="353" parent="340" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="354" parent="341" name="ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="355" parent="341" name="AUTHOR">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="356" parent="341" name="FILENAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="357" parent="341" name="DATEEXECUTED">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="358" parent="341" name="ORDEREXECUTED">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="359" parent="341" name="EXECTYPE">
+      <DasType>varchar(10)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="360" parent="341" name="MD5SUM">
+      <DasType>varchar(35)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="361" parent="341" name="DESCRIPTION">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="362" parent="341" name="COMMENTS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="363" parent="341" name="TAG">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="364" parent="341" name="LIQUIBASE">
+      <DasType>varchar(20)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="365" parent="341" name="CONTEXTS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="366" parent="341" name="LABELS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="367" parent="341" name="DEPLOYMENT_ID">
+      <DasType>varchar(10)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="368" parent="342" name="ID">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="369" parent="342" name="LOCKED">
+      <DasType>bit(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="370" parent="342" name="LOCKGRANTED">
+      <DasType>datetime|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="371" parent="342" name="LOCKEDBY">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="372" parent="342" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="373" parent="342" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="374" parent="343" name="id">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="375" parent="343" name="first_name">
       <DasType>varchar(110)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="364" parent="341" name="email">
+    <column id="376" parent="343" name="last_name">
       <DasType>varchar(110)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="365" parent="341" name="password">
-      <DasType>varchar(110)|0s</DasType>
-      <NotNull>1</NotNull>
+    <column id="377" parent="343" name="age">
+      <DasType>int(11)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="366" parent="341" name="first_name">
-      <DasType>varchar(110)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>5</Position>
-    </column>
-    <column id="367" parent="341" name="last_name">
-      <DasType>varchar(110)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>6</Position>
-    </column>
+    <index id="378" parent="343" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="379" parent="343" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>

@@ -1,15 +1,12 @@
 package io.novelis.formationpfe.blog.dto;
 
-import io.novelis.formationpfe.blog.entities.User;
 import io.novelis.formationpfe.blog.article.ArticleDao;
-import io.novelis.formationpfe.blog.dto.ArticleDto;
 import io.novelis.formationpfe.blog.entities.Article;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import io.novelis.formationpfe.blog.dto.mapper.ArticleMapper;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 @Service
 @RequiredArgsConstructor
@@ -28,6 +25,9 @@ public class ArticleService {
     }
 
     public List<ArticleDto> getArticles(){
+
+
+
         var articles = articleDao.findAll();
         if (articles.size() != 0) {
             return articleMapper.toDtoList(articles);
@@ -43,7 +43,7 @@ public class ArticleService {
         return articleMapper.toDto(result);
     }
 
-    public void test(){
+/*    public void test(){
         User user = new User();
         user.setId(1L);
         user.setFirstName("ib");
@@ -60,6 +60,6 @@ public class ArticleService {
             System.out.println("hello");
         }
 
-    }
+    }*/
 
 }
